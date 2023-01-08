@@ -12,13 +12,19 @@
     <!-- FontAwesome JS-->
     <script src="https://kit.fontawesome.com/708068a0d3.js" crossorigin="anonymous"></script> 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+
  <link rel="stylesheet" href="assets/indexCss.css">
-   
+ <script defer src="assets/app.js" ></script>
     <title>CV</title>
 </head> 
 
 <body>
-    <li class="github"><i class="fa-regular fa-file-pdf"></i><a href=  "https://tools.pdf24.org/es/sitio-web-a-pdf#s=1673118510828"  target="_blank">Pdf</a></li>
+    <div class="pdf"><i class="fa-regular fa-file-pdf"></i></div>
+    <a href=  "https://tools.pdf24.org/es/sitio-web-a-pdf#s=1673118510828"  target="_blank">Pdf</a>
+    
+    
     <div class="wrapper mt-lg-5">
         <div class="sidebar-wrapper ">
             <h1 class="name tutulo">  Curriculum Vitae  </h1>
@@ -34,7 +40,7 @@
                     <li class="phone">
                         <i class="fa-solid fa-phone"></i>
                         <i class="fa-thin fa-phone-volume"></i>
-                        <a href="tel:0123 456 789">02346 -657740 </a></li>
+                        <a href="tel:02346 -65774">02346 -657740 </a></li>
                     <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/wolfmarcos" target="_blank">github.com/wolfmarcos</a></li>
 
                    
@@ -49,7 +55,7 @@
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Descripción Laboral</h2>
                 <div class="summary">
-                    <p>Soy desarrollador web junior con 5 años de experiencia,  aspiro a ser un mejor programador en  "React.js" con el fin de satisfacer las necesidades del negocio, asegurando que se cumplen los estándares de calidad y seguridad establecidos.(cuento también con conocimientos intermedio en vanilla JavaScript y PHP )</p>
+                    <p>Soy desarrollador web junior con 5 años de experiencia,  aspiro a ser un mejor programador en  "React.js" con el fin de satisfacer las necesidades del negocio, asegurando que se cumplen los estándares de calidad y seguridad establecidos.(cuento también con conocimientos  en vanilla JavaScript y PHP )</p>
                 </div>
             </section>
             <section class="section experiences-section">
@@ -66,9 +72,13 @@
                     </div>
                     <div class="details">
                         <p>Conceptos abarcado .Fundamentos, Fetch , Manejo de formularios básicos y con formik , useState , useEffectm , useContext, useReducer , useRef , useMemo , armado de Hooks personalizados y redux.</p>  
-                        <p>Para la entrega final se realizo:
-                            API web, Cotizaciones de Terreno
-                           tecnología utilizada : React,Css,FireBase ,git y github. </p>
+                        <p>Entrega final :</p>
+                       
+
+                         <div  class="centro">
+                           <p>   API web, Cotizaciones de Terreno.</p>
+                           <p>  Tecnología utilizada : React,Css,FireBase ,git y github. </p>
+                        </div>
                     </div>
                 </div>
 
@@ -83,10 +93,14 @@
                     </div>
                     <div class="details">
                         <p>Conceptos abarcado . intermedio avanzado  ej: tipo de funciones, tipo de variables, manejo de estados  , sincronismo y asincronismo(peticiones) ,etc..</p>  
-                        <p>.Para el mismo se realizo:
-                            API web,Peliculas online.
-                            tecnología utilizada : Javascript ,Html , Css,git y github,se le imcorporo la librería sweetalert ,flaticon,fonts-google. </p>
+                        <p>Entrega final  :</p>
+                        <div  class="centro">
+                        <p>
+                            API web,Peliculas online.</p>
+                            <p>
+                                Tecnología utilizada : Javascript ,Html , Css,git y github,se le imcorporo la librería sweetalert ,flaticon,fonts-google. </p>
                     </div>
+                </div>
                 </div>
                 
 
@@ -130,10 +144,15 @@
                     </div>
                     <div class="details">
                         <p>Conceptos abarcado . node.js_express ,BD no relacional MongoDB. Full API .</p>  
-                        <p>.Para el mismo se realizo:
-                            API web, comercial
-                           tecnología utilizada : Javascript ,node.js_express , Mongo DB , Cloudinary,git y github. Entre otros. </p>
-                    </div>
+                        
+                        <p>Entrega final :</p>
+                        <div  class="centro">
+                        <p>
+                            API web, comercial.</p>
+                            <p>
+                                Tecnología utilizada : Javascript ,node.js_express , Mongo DB , Cloudinary,git y github. Entre otros. </p>
+                        </div>
+                        </div>
                 </div>
 
                 <div class="item">
@@ -146,12 +165,17 @@
                         </div>
                     </div>
                     <div class="details">
-                        <p>Tecnicatura en programación de computadoras (informático)</p>  
-                        <p>Para la entrega fina se realizo:
-                            API web, comercial .
+                        <p>Tecnicatura en programación de computadoras (informático)</p> 
+                        <p>Entrega final :</p>
+                        <div  class="centro"> 
+                     
+                        <p>
+                            API web, comercial.</p>
+                            <p>
                             Tecnología utilizada : PHP, CSS,MySQL,Javascript, git y github.
                             Tareas:  1)Diseño (HTML ,CSSyJS). 2) Implementación del backend realizado por mis compañeros. 3)Ademas como líder de grupo , tuve  la organización del Cronograma:(reuniones y progreso),Acta de constitución:(definición de proyecto y objetivos) , Fue una muy buena experiencia en grupo </p>
                     </div>
+                        </div>
                 </div>
 
 
@@ -166,7 +190,7 @@
                 <h2 class="section-title"><span class="icon-holder"> <i class="fa-solid fa-file-waveform"></i></span>Descripción personal</h2>
                 <div class="skillset">        
                     <div class="item">
-                        <p >Soy  una persona muy compañera que siempre intenta ayudar y trato de aprender  de los demás y de mi ,mas si es por un feedback .Estos últimos años le estado dedicando mucho esfuerzo a la programación ,porque e descubierto que es lo que me apasiona. Espero poder concretar una entrevista, desde ya gracias .</p>
+                        <p >Soy  una un persona compañera que me gusta ayudar y trato de aprender ,por ello simpre son bien recibidos los  feedback .Estos últimos años le e dedicando mucho esfuerzo a la programación ya que es lo que me apasiona. Espero poder concretar una entrevista, desde ya gracias .</p>
                        
                     
                 </div>  
@@ -181,5 +205,7 @@
         </div>
     </footer>
         
+
+
 </body>
 </html>

@@ -43,6 +43,12 @@ p {
 .tutulo{  text-shadow:1px 1px 1px #1a454f ;
  text-align: center;
 }
+.centro{
+  margin-left: 25%;
+  /* text-align: center; */
+  /* background-color: #fb866a; */
+  
+}
 
 .sidebar-wrapper {
   

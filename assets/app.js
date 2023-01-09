@@ -25,12 +25,12 @@ boton.addEventListener("click",(e)=>{
 
 
 
-            let doc = new jsPDF('p','pt','a4');
+            let doc = new jsPDF('p','pt','legal');
             
                 let width =doc.internal.pageSize.getWidth();
                 let height =canvas.height * width/ canvas.width;
              
-                doc.addImage(constanteURL, 'PNG',15,3, width-50, height-400)
+                doc.addImage(constanteURL, 'PNG',18,-50, width-25, height-350)
                 doc.save("ouput.pdf")
                 
             

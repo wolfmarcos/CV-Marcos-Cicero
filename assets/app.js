@@ -30,13 +30,10 @@ boton.addEventListener("click",(e)=>{
                 let width =doc.internal.pageSize.getWidth();
                 let height =canvas.height * width/ canvas.width;
              
-                doc.addImage(constanteURL, 'PNG',-31,3, width+33, height+230)
+                doc.addImage(constanteURL, 'PNG',15,3, width-50, height-400)
                 doc.save("ouput.pdf")
                 
-                doc.addPage('p','pt','a4');
-                doc.addImage(constanteURL, 'PNG', -31, -height+443, width+33, height+238)
-               
-                doc.save("a4.pdf");
+            
                 
 
             })

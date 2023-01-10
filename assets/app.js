@@ -7,7 +7,7 @@ const ContenedorPDF= document.querySelector(".wrapper");
 
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
-    e.preventDefault()
+    // e.preventDefault()
      Swal.fire({
       position: 'top',
       icon: 'success',
@@ -17,26 +17,26 @@ boton.addEventListener("click",(e)=>{
     })
   
     //  document.body
-        html2canvas(ContenedorPDF).then(function
-            (canvas) {
+        // html2canvas(ContenedorPDF).then(function
+        //     (canvas) {
 
-                let constanteURL=canvas.toDataURL("image/png")
+        //         let constanteURL=canvas.toDataURL("image/png")
    
 
 
 
-            let doc = new jsPDF('p','pt','legal');
+        //     let doc = new jsPDF('p','pt','legal');
             
-                let width =doc.internal.pageSize.getWidth();
-                let height =canvas.height * width/ canvas.width;
+        //         let width =doc.internal.pageSize.getWidth();
+        //         let height =canvas.height * width/ canvas.width;
              
-                doc.addImage(constanteURL, 'PNG',18,-50, width-25, height-350)
-                doc.save("ouput.pdf")
+        //         doc.addImage(constanteURL, 'PNG',18,-50, width-25, height-350)
+        //         doc.save("ouput.pdf")
                 
             
                 
 
-            })
+        //     })
           
           
        

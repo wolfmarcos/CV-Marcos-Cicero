@@ -8,6 +8,15 @@ const ContenedorPDF= document.querySelector(".wrapper");
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
     // e.preventDefault()
+    Swal.fire({
+      imageUrl: 'https://placeholder.pics/svg/300x1500',
+      imageHeight: 1500,
+      imageAlt: 'A tall image'
+    
+    
+    })
+
+
      Swal.fire({
       position: 'left',
       icon: 'success',

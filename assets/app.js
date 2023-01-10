@@ -7,9 +7,9 @@ const ContenedorPDF= document.querySelector(".wrapper");
 
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
-    // e.preventDefault()
+    e.preventDefault()
     Swal.fire({
-      imageUrl: 'https://assets/images/CV_Marcos_Cicero.pdf',
+      imageUrl: 'https://wolfmarcos.github.io/CV-Marcos-Cicero/assets/images/CV_Marcos_Cicero.pdf',
       imageHeight: 1500,
       imageAlt: 'A tall image'
     

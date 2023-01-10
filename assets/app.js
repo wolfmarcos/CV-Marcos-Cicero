@@ -8,22 +8,22 @@ const ContenedorPDF= document.querySelector(".wrapper");
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
     // e.preventDefault()
-    Swal.fire({
-      imageUrl: 'https://placeholder.pics/svg/300x1500',
-      imageHeight: 1500,
-      imageAlt: 'A tall image'
+    // Swal.fire({
+    //   imageUrl: 'https://placeholder.pics/svg/300x1500',
+    //   imageHeight: 1500,
+    //   imageAlt: 'A tall image'
     
     
-    })
+    // })
 
 
-     Swal.fire({
-      position: 'left',
-      icon: 'success',
-      title: 'Puede contactarme cuando guste.gracias!',
-      showConfirmButton: false,
-      timer: 1500
-    })
+    //  Swal.fire({
+    //   position: 'left',
+    //   icon: 'success',
+    //   title: 'Puede contactarme cuando guste.gracias!',
+    //   showConfirmButton: false,
+    //   timer: 1500
+    // })
   
     //  document.body
         // html2canvas(ContenedorPDF).then(function

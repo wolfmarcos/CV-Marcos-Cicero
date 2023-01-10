@@ -40,8 +40,9 @@ p {
 }
 
 
-.tutulo{  text-shadow:1px 1px 1px #1a454f ;
+.titulo{  text-shadow:1px 1px 1px #1a454f ;
  text-align: center;
+ margin-top: 10px;
 }
 .centro{
   margin-left: 25%;

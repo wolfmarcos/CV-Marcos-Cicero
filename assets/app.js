@@ -8,13 +8,23 @@ const ContenedorPDF= document.querySelector(".wrapper");
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
     // e.preventDefault()
-     Swal.fire({
-      position: 'top',
-      icon: 'success',
-      title: 'Puede contactarme cuando guste.gracias!',
-      showConfirmButton: false,
-      timer: 1500
+    Swal.fire({
+      imageUrl: '/assets/images/CV_Marcos_Cicero.pdf',
+      imageHeight: 1500,
+      imageAlt: 'A tall image'
+    
+    
+    
     })
+
+
+    //  Swal.fire({
+    //   position: 'left',
+    //   icon: 'success',
+    //   title: 'Puede contactarme cuando guste.gracias!',
+    //   showConfirmButton: false,
+    //   timer: 1500
+    // })
   
     //  document.body
         // html2canvas(ContenedorPDF).then(function

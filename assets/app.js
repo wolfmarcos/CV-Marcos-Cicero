@@ -7,7 +7,7 @@ const ContenedorPDF= document.querySelector(".wrapper");
 
 boton.addEventListener("click",(e)=>{ 
     //  alert("hola")
-    e.preventDefault()
+    // e.preventDefault()
     // Swal.fire({
     //   imageUrl: '/assets/images/CV_Marcos_Cicero.pdf',
     //   imageHeight: 1500,

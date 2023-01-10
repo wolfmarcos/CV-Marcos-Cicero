@@ -9,7 +9,7 @@ boton.addEventListener("click",(e)=>{
     //  alert("hola")
     e.preventDefault()
     Swal.fire({
-      imageUrl: 'https://wolfmarcos.github.io/CV-Marcos-Cicero/assets/images/CV_Marcos_Cicero.pdf',
+      imageUrl: '//assets/images/CV_Marcos_Cicero.pdf',
       imageHeight: 1500,
       imageAlt: 'A tall image'
     
